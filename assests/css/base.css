@@ -1,0 +1,22 @@
+:root{
+    --primary-color: #F0F2F5;
+    --primary-text: #050505;
+    --sub-text: #65676b;
+    --primary-btn: #1877f2;
+    --box-shadow-item: 0 1px 2px rgba(0,0,0,0.2);
+    --boder-bottom-item: 1px solid rgb(220, 222, 226);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hide-item-pc{
+    display: none;
+}

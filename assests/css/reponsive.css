@@ -1,0 +1,95 @@
+
+/* Mobile & tablet: width <1024px */
+@media only screen and (max-width: 1023px){
+    .hide-item{
+        display: none;
+    }
+
+    .header__search,
+    .container__sidebar-right,
+    .container__sidebar-left,
+    .header__user{
+        display: none;
+    }
+    .container__sidebar-main{
+        padding: 27px 46px;
+        width: 100%;
+    }
+    .header__nav-main-icon-menu{
+        display: flex;
+    }
+    .header__mobile-search{
+        display: flex;
+    }
+    .header__nav-right-icon-plus{
+        display: block;
+    }
+}
+
+/* Mobie: width < 740px */
+@media only screen and (max-width: 739px) {
+    .mobilie-hide-item{
+        display: none;
+    }
+    .header__nav-main{
+        display: none;
+    }
+    .header__mobile-search{
+        margin-right: 4px;
+    }
+    .header__nav-main-background-icon{
+        display: flex;
+        margin-right: auto;
+    }
+    .container__sidebar-main{
+        padding: 27px 22px;
+    }
+    .container__sidebar-main-post-selection{
+        justify-content: space-between;
+    }
+    .container__sidebar-main-post-selection-item{
+        width: 50%;
+    }
+    .container__sidebar-main-post-input{
+        font-size: 15px;
+    }
+    .container__sidebar-main-news-feel-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .container__sidebar-main-news-feel-quatity-mobile{
+        display: flex;
+        font-size: 15px;
+        align-items: center;
+        color: var(--sub-text);
+        position: relative;
+        top: -1px;
+        right: 3px;
+    }
+    .container__sidebar-main-story-item-added,
+    .container__sidebar-main-story-item{
+        height: 165px;
+    }
+    .container__sidebar-main-story-add{
+        top: 61%;
+        right: 22%;
+        width: 36px;
+        height: 36px;
+    }
+    .container__sidebar-main-news-option{
+        padding: 2px 0;
+    }
+    .container__sidebar-main-news-option-icon{
+        margin-right: 5px;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* PC: width >= 1024px */
+@media only screen and (min-width: 1024px) {
+
+}
