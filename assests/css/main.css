@@ -28,7 +28,7 @@
 
 .header__search{
     background-color: var(--primary-color);
-    width: 240px;
+    width: 300px;
     height: 40px;
     display: flex;
     text-align: center;
