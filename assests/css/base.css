@@ -20,3 +20,35 @@ html{
 .hide-item-pc{
     display: none;
 }
+
+.hide-item-pc:hover{
+    background-color: transparent;
+}
+
+.hover-item{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: ease .2s;
+}
+
+.hover-item:hover{
+    background-color: var(--primary-color);
+    filter: brightness(95%);
+}
+
+.background-item{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    filter: brightness(90%);
+}
