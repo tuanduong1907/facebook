@@ -5,6 +5,8 @@
         display: none;
     }
 
+    .container__sidebar-main-story-item-added-right-icon,
+    .write-post,
     .header__search,
     .container__sidebar-right,
     .container__sidebar-left,
@@ -42,7 +44,7 @@
         margin-right: auto;
     }
     .container__sidebar-main{
-        padding: 27px 22px;
+        padding: 14px 4px;
     }
     .container__sidebar-main-post-selection{
         justify-content: space-between;
@@ -82,10 +84,25 @@
     .container__sidebar-main-news-option-icon{
         margin-right: 5px;
     }
+    .create-section{
+        right: -153px;
+    }
+    .messenger-section {
+        right: -107px;
+    }
+    .notifi-section{
+        right: -55px;
+    }
+    .more-section{
+        right: -25px;
+    }
 }
 
 /* Tablet: width >= 740px and width < 1024px */
 @media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .notifi-section{
+        height: 60vh;
+    }
 
 }
 
