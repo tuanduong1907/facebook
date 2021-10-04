@@ -22,8 +22,8 @@
             <div class="header__mobile-search">
                 <i class="header__mobile-search-icon fas fa-search"></i>
             </div>
-            <div class="header__nav-main-background-icon hide-item-pc hide-item">
-                <i class="header__nav-main-icon header__nav-main-icon-menu fas fa-bars"></i>
+            <div class="header__nav-main-background-icon  hide-item-pc hide-item">
+                <i class="header__nav-main-icon header__nav-main-icon-menu  fas fa-bars"></i>
             </div>
         </div>
         <div class="header__nav-main">
@@ -54,16 +54,337 @@
                 <img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.6435-1/cp0/p80x80/241801083_1202665863530621_291397091864310349_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=7206a8&_nc_ohc=scVUiV5ou-YAX-3GyL6&_nc_ht=scontent.fsgn2-2.fna&oh=0cf3585bb26e6c66f80a2f89e4d6f1c3&oe=61801C1B" alt="" class="header__user-img">
                 <span class="header__user-name">Tuấn</span>
             </div>
-            <i class="header__nav-right-icon-plus fas fa-plus"></i>
-            <i class="header__nav-right-icon hide-item fas fa-list-ul"></i>
-            <i class="header__nav-right-icon fab fa-facebook-messenger"></i>
-            <div class="header__nav-right-bell">
+            <label for="nav-right-icon-plus_input"  class="header__nav-right-icon-plus fas fa-plus">
+                <input type="checkbox" hidden class="header__nav-right-icon-plus-input" id="nav-right-icon-plus_input">
+                <div class="create-section">
+                    <h4 class="create-section_heading">
+                        Tạo
+                    </h4>
+                    <div class="create-section_item-wrap">
+                        <div class="create-section_item">
+                            <i class="background-item create-section_icon fas fa-edit"></i>
+                            <div class="create-section_item-content">
+                                <p class="create-section_item-content-name">Đăng</p>
+                                <p class="create-section_item-desc-name">Chia sẻ bài viết lên bảng tin</p>
+                            </div>
+                        </div>
+                        <div class="create-section_item">
+                            <i class="background-item create-section_icon fas fa-book-open"></i>
+                            <div class="create-section_item-content">
+                                <p class="create-section_item-content-name">Tin</p>
+                                <p class="create-section_item-desc-name">Bạn có thể chia sẻ ảnh hoặc bài viết gì đó</p>
+                            </div>
+                        </div>
+                        <div class="create-section_item">
+                            <i class="background-item  create-section_icon fas fa-video"></i>
+                            <div class="create-section_item-content">
+                                <p class="create-section_item-content-name">Phòng họp mặt</p>
+                                <span class="create-section_item-desc-name">Chat video với bất kỳ ai trên hoặc bên ngoài <br> Facebook, không giới hạn thời gian.</span>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="create-section_item-wrap">
+                        <div class="create-section_item">
+                            <i class="background-item create-section_icon fas fa-flag"></i>
+                            <div class="create-section_item-content">
+                                <p class="create-section_item-content-name">Trang</p>
+                                <p class="create-section_item-desc-name">Chia sẻ bài viết lên bảng tin</p>
+                            </div>
+                        </div>
+                        <div class="create-section_item">
+                            <i class="background-item create-section_icon fas fa-users"></i>
+                            <div class="create-section_item-content">
+                                <p class="create-section_item-content-name">Nhóm</p>
+                                <p class="create-section_item-desc-name">Kết nối với những người cùng chung sở thích.</p>
+                            </div>
+                        </div>
+                        <div class="create-section_item">
+                            <i class="background-item  create-section_icon fas fa-calendar-plus"></i>
+                            <div class="create-section_item-content">
+                                <p class="create-section_item-content-name">Sự kiện</p>
+                                <p class="create-section_item-desc-name">Gắn kết mọi người thông qua sự kiện riêng  <br> tư hoặc công khai.</p>
+                            </div>
+                        </div>
+                        <div class="create-section_item">
+                            <i class="background-item create-section_icon fas fa-shopping-bag"></i>
+                            <div class="create-section_item-content">
+                                <p class="create-section_item-content-name">Bài niêm yết trên Marketplace</p>
+                                <p class="create-section_item-desc-name">Bán hàng cho người trong cộng đồng của bạn.</p>
+                            </div>
+                        </div>
+                        <div class="create-section_item">
+                            <i class="background-item create-section_icon fas fa-briefcase"></i>
+                            <div class="create-section_item-content">
+                                <p class="create-section_item-content-name">Việc làm</p>
+                                <p class="create-section_item-desc-name">Đăng tin tuyển dụng và tiếp cận miễn phí <br> những ứng viên quanh đây.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </label>
+            <label for="nav-right-icon_input" class="header__nav-right-icon fab fa-facebook-messenger">
+                <input type="checkbox" hidden class="header__nav-right-icon-input" id="nav-right-icon_input">
+                <div class="messenger-section">
+                    <div class="messenger-header">
+                        <h3 class="messenger-heading">
+                            Messenger
+                        </h3>
+                        <div class="messenger-heade-icon-wrap">
+                            <i class="messenger-heade-icon hover-item fas fa-ellipsis-h"></i>
+                            <i class="messenger-heade-icon hover-item fas fa-expand-arrows-alt"></i>
+                            <i class="messenger-heade-icon hover-item fas fa-edit"></i>
+                        </div>
+                    </div>
+                    <div class="messenger-search-wrap">
+                        <i class="messenger-search-icon fas fa-search"></i>
+                        <input type="text" class="messenger-search-input" placeholder="Tìm kiếm trên messenger">
+                    </div>
+                    <div class="messenger-body">
+                        <h4>Không tìm thấy tin nhắn</h4>
+                    </div>
+                    <footer class="messenger-footer">
+                        <span>Xem tất cả trong Messenger</span>
+                    </footer>
+                </div>
+            </label>
+            <label for="nav-right-icon-notifi_input" class="header__nav-right-bell">
                 <i class="header__nav-right-icon-bell fas fa-bell"></i>
-            </div>
-            <div class="header__nav-right-down">
-                <i class="header__nav-right-icon-down fas fa-sort-down"></i>
-            </div>
+                <input type="checkbox" hidden class="header__nav-right-icon-notifi-input" id="nav-right-icon-notifi_input">
+                <div class="notifi-section">
+                    <div class="notifi-header">
+                        <h3 class="notifi-heading">
+                            Thông báo
+                        </h3>
+                        <div class="messenger-heade-icon-wrap">
+                            <i class="messenger-heade-icon hover-item fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="notifi-content">
+                        <div class="notifi-content__head">
+                            <h3 class="notifi-content__heading">
+                                Lời mời kết bạn
+                            </h3>
+                            <span>Xem tất cả</span>
+                        </div>
+                        <div class="notifi-content__item">
+                            <div class="notifi-content__item-image">
+                                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/203368612_113025234348611_165972379221071003_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=T11yxD-bGzcAX-aJqS9&_nc_ht=scontent.fsgn2-3.fna&oh=81563552f97bab0a292a036032e4d6d6&oe=6180CCDD" alt="" class="notifi-content__item-image-img">
+                                <i data-visualcompletion="" class="notifi-content__item-image-sub-img" style="height: 28px; width: 28px; background-image: url(&quot;https://www.facebook.com/rsrc.php/v3/yn/r/VMU5GfvNED1.png&quot;); background-position: 0px -780px; background-size: 30px 1770px; background-repeat: no-repeat; display: inline-block;"></i>
+                            </div>
+                            <div class="notifi-content__item-info">
+                                <p><span class="notifi-content__item-info-name">DT Auto</span> đã gửi cho bạn lời mời kết bạn</p>
+                                <div class="notifi-content__item-info-time">
+                                    <span> 1 giây trước</span>
+                                    <i class="notifi-content__item-info-time-icon fas fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifi-content__item">
+                            <div class="notifi-content__item-image">
+                                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/203368612_113025234348611_165972379221071003_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=T11yxD-bGzcAX-aJqS9&_nc_ht=scontent.fsgn2-3.fna&oh=81563552f97bab0a292a036032e4d6d6&oe=6180CCDD" alt="" class="notifi-content__item-image-img">
+                                <i data-visualcompletion="" class="notifi-content__item-image-sub-img" style="height: 28px; width: 28px; background-image: url(&quot;https://www.facebook.com/rsrc.php/v3/yn/r/VMU5GfvNED1.png&quot;); background-position: 0px -780px; background-size: 30px 1770px; background-repeat: no-repeat; display: inline-block;"></i>
+                            </div>
+                            <div class="notifi-content__item-info">
+                                <p><span class="notifi-content__item-info-name">DT Auto</span> đã gửi cho bạn lời mời kết bạn</p>
+                                <div class="notifi-content__item-info-time">
+                                    <span> 1 phút trước</span>
+                                    <i class="notifi-content__item-info-time-icon fas fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifi-content__item">
+                            <div class="notifi-content__item-image">
+                                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/203368612_113025234348611_165972379221071003_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=T11yxD-bGzcAX-aJqS9&_nc_ht=scontent.fsgn2-3.fna&oh=81563552f97bab0a292a036032e4d6d6&oe=6180CCDD" alt="" class="notifi-content__item-image-img">
+                                <i data-visualcompletion="" class="notifi-content__item-image-sub-img" style="height: 28px; width: 28px; background-image: url(&quot;https://www.facebook.com/rsrc.php/v3/yn/r/VMU5GfvNED1.png&quot;); background-position: 0px -780px; background-size: 30px 1770px; background-repeat: no-repeat; display: inline-block;"></i>
+                            </div>
+                            <div class="notifi-content__item-info">
+                                <p><span class="notifi-content__item-info-name">DT Auto</span> đã gửi cho bạn lời mời kết bạn</p>
+                                <div class="notifi-content__item-info-time">
+                                    <span> 3 phút trước</span>
+                                    <i class="notifi-content__item-info-time-icon fas fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifi-content__item">
+                            <div class="notifi-content__item-image">
+                                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/203368612_113025234348611_165972379221071003_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=T11yxD-bGzcAX-aJqS9&_nc_ht=scontent.fsgn2-3.fna&oh=81563552f97bab0a292a036032e4d6d6&oe=6180CCDD" alt="" class="notifi-content__item-image-img">
+                                <i data-visualcompletion="" class="notifi-content__item-image-sub-img" style="height: 28px; width: 28px; background-image: url(&quot;https://www.facebook.com/rsrc.php/v3/yn/r/VMU5GfvNED1.png&quot;); background-position: 0px -780px; background-size: 30px 1770px; background-repeat: no-repeat; display: inline-block;"></i>
+                            </div>
+                            <div class="notifi-content__item-info">
+                                <p><span class="notifi-content__item-info-name">DT Auto</span> đã gửi cho bạn lời mời kết bạn</p>
+                                <div class="notifi-content__item-info-time">
+                                    <span> 4 phút trước</span>
+                                    <i class="notifi-content__item-info-time-icon fas fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifi-content__item">
+                            <div class="notifi-content__item-image">
+                                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/203368612_113025234348611_165972379221071003_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=T11yxD-bGzcAX-aJqS9&_nc_ht=scontent.fsgn2-3.fna&oh=81563552f97bab0a292a036032e4d6d6&oe=6180CCDD" alt="" class="notifi-content__item-image-img">
+                                <i data-visualcompletion="" class="notifi-content__item-image-sub-img" style="height: 28px; width: 28px; background-image: url(&quot;https://www.facebook.com/rsrc.php/v3/yn/r/VMU5GfvNED1.png&quot;); background-position: 0px -780px; background-size: 30px 1770px; background-repeat: no-repeat; display: inline-block;"></i>
+                            </div>
+                            <div class="notifi-content__item-info">
+                                <p><span class="notifi-content__item-info-name">DT Auto</span> đã gửi cho bạn lời mời kết bạn</p>
+                                <div class="notifi-content__item-info-time">
+                                    <span> 10 phút trước</span>
+                                    <i class="notifi-content__item-info-time-icon fas fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifi-content__item">
+                            <div class="notifi-content__item-image">
+                                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/203368612_113025234348611_165972379221071003_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=T11yxD-bGzcAX-aJqS9&_nc_ht=scontent.fsgn2-3.fna&oh=81563552f97bab0a292a036032e4d6d6&oe=6180CCDD" alt="" class="notifi-content__item-image-img">
+                                <i data-visualcompletion="" class="notifi-content__item-image-sub-img" style="height: 28px; width: 28px; background-image: url(&quot;https://www.facebook.com/rsrc.php/v3/yn/r/VMU5GfvNED1.png&quot;); background-position: 0px -780px; background-size: 30px 1770px; background-repeat: no-repeat; display: inline-block;"></i>
+                            </div>
+                            <div class="notifi-content__item-info">
+                                <p><span class="notifi-content__item-info-name">DT Auto</span> đã gửi cho bạn lời mời kết bạn</p>
+                                <div class="notifi-content__item-info-time">
+                                    <span> 12 phút trước</span>
+                                    <i class="notifi-content__item-info-time-icon fas fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifi-content__item">
+                            <div class="notifi-content__item-image">
+                                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/203368612_113025234348611_165972379221071003_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=T11yxD-bGzcAX-aJqS9&_nc_ht=scontent.fsgn2-3.fna&oh=81563552f97bab0a292a036032e4d6d6&oe=6180CCDD" alt="" class="notifi-content__item-image-img">
+                                <i data-visualcompletion="" class="notifi-content__item-image-sub-img" style="height: 28px; width: 28px; background-image: url(&quot;https://www.facebook.com/rsrc.php/v3/yn/r/VMU5GfvNED1.png&quot;); background-position: 0px -780px; background-size: 30px 1770px; background-repeat: no-repeat; display: inline-block;"></i>
+                            </div>
+                            <div class="notifi-content__item-info">
+                                <p><span class="notifi-content__item-info-name">DT Auto</span> đã gửi cho bạn lời mời kết bạn</p>
+                                <div class="notifi-content__item-info-time">
+                                    <span> 37 phút trước</span>
+                                    <i class="notifi-content__item-info-time-icon fas fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifi-content__item">
+                            <div class="notifi-content__item-image">
+                                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/203368612_113025234348611_165972379221071003_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=T11yxD-bGzcAX-aJqS9&_nc_ht=scontent.fsgn2-3.fna&oh=81563552f97bab0a292a036032e4d6d6&oe=6180CCDD" alt="" class="notifi-content__item-image-img">
+                                <i data-visualcompletion="" class="notifi-content__item-image-sub-img" style="height: 28px; width: 28px; background-image: url(&quot;https://www.facebook.com/rsrc.php/v3/yn/r/VMU5GfvNED1.png&quot;); background-position: 0px -780px; background-size: 30px 1770px; background-repeat: no-repeat; display: inline-block;"></i>
+                            </div>
+                            <div class="notifi-content__item-info">
+                                <p><span class="notifi-content__item-info-name">DT Auto</span> đã gửi cho bạn lời mời kết bạn</p>
+                                <div class="notifi-content__item-info-time">
+                                    <span> 40 phút trước</span>
+                                    <i class="notifi-content__item-info-time-icon fas fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifi-content__item">
+                            <div class="notifi-content__item-image">
+                                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/203368612_113025234348611_165972379221071003_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=T11yxD-bGzcAX-aJqS9&_nc_ht=scontent.fsgn2-3.fna&oh=81563552f97bab0a292a036032e4d6d6&oe=6180CCDD" alt="" class="notifi-content__item-image-img">
+                                <i data-visualcompletion="" class="notifi-content__item-image-sub-img" style="height: 28px; width: 28px; background-image: url(&quot;https://www.facebook.com/rsrc.php/v3/yn/r/VMU5GfvNED1.png&quot;); background-position: 0px -780px; background-size: 30px 1770px; background-repeat: no-repeat; display: inline-block;"></i>
+                            </div>
+                            <div class="notifi-content__item-info">
+                                <p><span class="notifi-content__item-info-name">DT Auto</span> đã gửi cho bạn lời mời kết bạn</p>
+                                <div class="notifi-content__item-info-time">
+                                    <span> 49 phút trước</span>
+                                    <i class="notifi-content__item-info-time-icon fas fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notifi-content__item">
+                            <div class="notifi-content__item-image">
+                                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/203368612_113025234348611_165972379221071003_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=T11yxD-bGzcAX-aJqS9&_nc_ht=scontent.fsgn2-3.fna&oh=81563552f97bab0a292a036032e4d6d6&oe=6180CCDD" alt="" class="notifi-content__item-image-img">
+                                <i data-visualcompletion="" class="notifi-content__item-image-sub-img" style="height: 28px; width: 28px; background-image: url(&quot;https://www.facebook.com/rsrc.php/v3/yn/r/VMU5GfvNED1.png&quot;); background-position: 0px -780px; background-size: 30px 1770px; background-repeat: no-repeat; display: inline-block;"></i>
+                            </div>
+                            <div class="notifi-content__item-info">
+                                <p><span class="notifi-content__item-info-name">DT Auto</span> đã gửi cho bạn lời mời kết bạn</p>
+                                <div class="notifi-content__item-info-time">
+                                    <span> 59 phút trước</span>
+                                    <i class="notifi-content__item-info-time-icon fas fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </label>
+            <label for="nav-right-icon-more_input" class="header__nav-right-down">
+                <i class="header__nav-right-icon-down fas fa-sort-down">
+                    <input type="checkbox" hidden class="header__nav-right-icon-more-input" id="nav-right-icon-more_input">
+                    <div class="more-section">
+                        <div class="more-section__item-wrap">
+                            <div class="more-section__item">
+                                <img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.6435-9/241801083_1202665863530621_291397091864310349_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=scVUiV5ou-YAX9uCbNc&tn=fHwZlmSSCWgeEQ13&_nc_ht=scontent.fsgn2-2.fna&oh=6ea79ce16a471b5bd3a16d5c4c1ed377&oe=6181CB2E" alt="" class="more-section__img">
+                                <div class="more-section__info">
+                                    <span class="more-section__info-name">
+                                        Dương Tuấn
+                                    </span>
+                                    <span class="more-section__info-desc">
+                                        Xem trang cá nhân của bạn
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="more-section__item-wrap">
+                            <div class="more-section__item">
+                                <i class="more-section__item-icon background-item fas fa-exclamation-circle"></i>
+                                <div class="more-section__info">
+                                    <span class="more-section__info-name">
+                                        Đóng góp ý kiến
+                                    </span>
+                                    <span class="more-section__info-desc">
+                                        Góp phần cải thiện phiên bản Facebook mới
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="more-section__item-wrap">
+                            <div class="more-section__item">
+                                <i class="more-section__item-icon background-item fas fa-cog"></i>
+                                <div class="more-section__info">
+                                    <span class="more-section__info-name">
+                                        Cài đặt quyền riêng tư
+                                    </span>
+                                </div>
+                                <i class="more-section__right-icon fas fa-chevron-right"></i>
+                            </div>
+                            <div class="more-section__item">
+                                <i class="more-section__item-icon background-item fas fa-question-circle"></i>
+                                <div class="more-section__info">
+                                    <span class="more-section__info-name">
+                                        Trợ giúp & hỗ trợ
+                                    </span>
+                                </div>
+                                <i class="more-section__right-icon fas fa-chevron-right"></i>
+                            </div>
+                            <div class="more-section__item">
+                                <i class="more-section__item-icon background-item fas fa-moon"></i>
+                                <div class="more-section__info">
+                                    <span class="more-section__info-name">
+                                        Màn hình & trợ năng
+                                    </span>
+                                </div>
+                                <i class="more-section__right-icon fas fa-chevron-right"></i>
+                            </div>
+                            <div class="more-section__item">
+                                <i class="more-section__item-icon background-item fas fa-sign-out-alt"></i>
+                                <div class="more-section__info">
+                                    <span class="more-section__info-name">
+                                        Đăng xuất
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="more-section__footer">
+                                <a href="" class="more-section__footer-link">Quyền riêng tư</a>
+                                ·
+                                <a href="" class="more-section__footer-link">Điều khoản</a>
+                                ·
+                                <a href="" class="more-section__footer-link">Quảng cáo</a>
+                                ·
+                                <a href="" class="more-section__footer-link">Lựa chọn quảng cáo</a>
+                                ·
+                                <a href="" class="more-section__footer-link">Cookie</a>
+                                ·
+                                Xem thêm
+                                ·
+                                Facebook © 2021
+                            </div>
+                        </div>
+                    </div>
+                </i>
+            </label>
         </div>
     </header>
     <div class="container">
@@ -262,7 +583,7 @@
                     <span class="container__sidebar-main-news-feel-quatity mobilie-hide-item">Bạn và 999 người khác</span>
                     <span class="container__sidebar-main-news-feel-quatity-mobile hide-item-pc">1k</span>
                     <span class="container__sidebar-main-news-cmt">99 bình luận</span>
-                    <span class="container__sidebar-main-news-share">99 lượt chia sẽ</span>
+                    <span class="container__sidebar-main-news-share">99 lượt chia sẻ</span>
                 </div>
                 <div class="container__sidebar-main-news-option">
                     <div class="container__sidebar-main-news-option-item">
@@ -358,7 +679,7 @@
                     <span class="container__sidebar-main-news-feel-quatity mobilie-hide-item">Bạn và 999 người khác</span>
                     <span class="container__sidebar-main-news-feel-quatity-mobile hide-item-pc">1k</span>
                     <span class="container__sidebar-main-news-cmt">99 bình luận</span>
-                    <span class="container__sidebar-main-news-share">99 lượt chia sẽ</span>
+                    <span class="container__sidebar-main-news-share">99 lượt chia sẻ</span>
                 </div>
                 <div class="container__sidebar-main-news-option">
                     <div class="container__sidebar-main-news-option-item">
@@ -454,7 +775,7 @@
                     <span class="container__sidebar-main-news-feel-quatity mobilie-hide-item">Bạn và 999 người khác</span>
                     <span class="container__sidebar-main-news-feel-quatity-mobile hide-item-pc">1k</span>
                     <span class="container__sidebar-main-news-cmt">99 bình luận</span>
-                    <span class="container__sidebar-main-news-share">99 lượt chia sẽ</span>
+                    <span class="container__sidebar-main-news-share">99 lượt chia sẻ</span>
                 </div>
                 <div class="container__sidebar-main-news-option">
                     <div class="container__sidebar-main-news-option-item">
@@ -550,7 +871,7 @@
                     <span class="container__sidebar-main-news-feel-quatity mobilie-hide-item">Bạn và 999 người khác</span>
                     <span class="container__sidebar-main-news-feel-quatity-mobile hide-item-pc">1k</span>
                     <span class="container__sidebar-main-news-cmt">99 bình luận</span>
-                    <span class="container__sidebar-main-news-share">99 lượt chia sẽ</span>
+                    <span class="container__sidebar-main-news-share">99 lượt chia sẻ</span>
                 </div>
                 <div class="container__sidebar-main-news-option">
                     <div class="container__sidebar-main-news-option-item">
@@ -864,6 +1185,9 @@
                     </li>
                 </ul>
             </div>
+        </div>
+        <div class="write-post">
+            <i class="write-post-icon fas fa-edit"></i>
         </div>
     </div>
 </body>
