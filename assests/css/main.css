@@ -1,3 +1,5 @@
+
+
 /* HEADER */
 
 .header{
@@ -704,6 +706,7 @@
 .container__sidebar-main-story-wrap{
     width: 100%;
     display: flex;
+    position: relative;
 }
 
 .container__sidebar-main-story-item-added,
@@ -1072,7 +1075,7 @@
     position: fixed;
     right: 0;
     overflow-y: hidden;
-    padding-bottom: 100px;
+    padding-bottom: 0;
     background-color: var(--primary-color);
 }
 .container__sidebar-right:hover{
